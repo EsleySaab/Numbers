@@ -1,0 +1,34 @@
+.form {
+  margin-top: 6.5rem;
+}
+
+h4 {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--content-primary);
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+label {
+  font-size: 1.2rem;
+  line-height: 150%;
+  font-weight: bold;
+  text-align: center;
+  color: var(--content-secondary);
+  font-family: "Roboto Mono", sans-serif;
+  margin-top: 3rem;
+}
+
+input[type="number"] {
+  background-color: var(--background-secondary);
+  width: 5.5rem;
+  padding: .9rem;
+  font-size: 16px;
+  border: 1px solid var(--background-secondary);
+  border-radius: .5rem;
+  color: white;
+  text-align: center;
+}
+

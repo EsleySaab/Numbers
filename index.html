@@ -30,7 +30,7 @@
         </div>
       </header>
 
-      <div class="d-flex">
+      <div class="d-flex raffle">
         <div class="info">
           <p>ONLINE - GRATUITO</p>
           <h1>
@@ -58,7 +58,32 @@
           >
         </div>
         <div class="form">
-          <h4>QUERO SORTEAR:</h4>
+          <div>
+            <h4>QUERO SORTEAR:</h4>
+            <small
+              >Defina o intervalo e a quantidade de números, clique em
+              "Sortear"<br />
+              e veja os resultados na tela. É rápido e fácil!</small
+            >
+          </div>
+          <div class="input-group d-flex">
+            <form class="d-flex gap-3">
+              <div class="d-flex flex-column">
+                <label for="number-input-1" class="form-label">NÚMEROS</label>
+                <input type="number" id="number-input-1" />
+              </div>
+
+              <div class="d-flex flex-column">
+                <label for="number-input-2" class="form-label">DE</label>
+                <input type="number" id="number-input-2" />
+              </div>
+
+              <div class="d-flex flex-column">
+                <label for="number-input-3" class="form-label">ATÉ</label>
+                <input type="number" id="number-input-3" />
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>

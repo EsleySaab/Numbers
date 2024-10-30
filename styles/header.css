@@ -84,4 +84,6 @@ small {
   color: var(--content-secondary);
 }
 
-
+.raffle {
+  gap: 12rem;
+}
