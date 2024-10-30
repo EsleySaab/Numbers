@@ -24,11 +24,35 @@ label {
 input[type="number"] {
   background-color: var(--background-secondary);
   width: 5.5rem;
-  padding: .9rem;
+  padding: 0.9rem;
   font-size: 16px;
   border: 1px solid var(--background-secondary);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   color: white;
   text-align: center;
 }
 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* Remove a aparência padrão */
+  margin: 0; /* Remove margens */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Remove a aparência padrão do spinner no Firefox */
+}
+
+.btn {
+  background-color: var(--background-tertiary);
+  border: 1px solid var(--background-tertiary);
+  width: 100%;
+  height: 3rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: var(--background-tertiary);
+  border: 1px solid var(--content-secondary);
+}
