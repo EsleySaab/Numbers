@@ -5,7 +5,18 @@
 }
 
 body {
-  background-color: var(--background-primary);
+  background-color: var(--background-primary); /* Cor de fundo */
+  background-image: url(../img/Shapes.png);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1; 
 }
 
 :root {
@@ -15,9 +26,9 @@ body {
   --content-brand: #c58de7;
   --color-inverse: #030203;
 
-  --font-primary: 'Roboto Flex', sans-serif;
-  --font-secondary: 'Sora', sans-serif;
-  --font-tertiary: 'Roboto Mono', sans-serif;
+  --font-primary: "Roboto Flex", sans-serif;
+  --font-secondary: "Sora", sans-serif;
+  --font-tertiary: "Roboto Mono", sans-serif;
 
   --background-primary: #020202;
   --background-secondary: #111012;
