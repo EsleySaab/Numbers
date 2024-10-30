@@ -1,0 +1,39 @@
+.logo {
+  align-items: center;
+  gap: 0.9rem;
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
+h3 {
+  margin-top: 0.6rem;
+  text-align: center;
+  font-family: "Roboto Flex", sans-serif;
+  line-height: 130%;
+  letter-spacing: -4%;
+  font-size: 24px;
+  font-weight: bolder;
+  color: var(--content-primary);
+}
+
+.info {
+  margin-left: 5rem;
+  margin-top: 5rem;
+
+  & p {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: bold;
+    background: linear-gradient(#c7c9cc 100%, #3d3d3d 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+h1 {
+  font-family: "Sora", sans-serif;
+  font-size: 60px;
+  line-height: 130%;
+  font-weight: bold;
+}
