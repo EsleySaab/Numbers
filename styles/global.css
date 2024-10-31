@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: var(--background-primary); /* Cor de fundo */
+  background-color: var(--background-primary);
   background-image: url(../img/Shapes.png);
 }
 
