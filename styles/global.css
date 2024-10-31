@@ -9,7 +9,6 @@ body {
   background-image: url(../img/Shapes.png);
 }
 
-
 .overlay {
   position: absolute;
   top: 0;
@@ -17,7 +16,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
-  z-index: -1; 
+  z-index: -1;
 }
 
 :root {
@@ -61,4 +60,9 @@ h3 {
 
 h1 {
   color: var(--content-primary);
+}
+
+.raffle-result {
+  color: var(--content-primary);
+  text-align: center;
 }
