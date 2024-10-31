@@ -50,11 +50,17 @@ input[type="number"] {
   margin-top: 3rem;
   border-radius: 0.5rem;
   text-align: center;
+  color: var(--content-primary);
 }
 
 .btn:hover {
-  background-color: var(--background-tertiary);
-  border: 1px solid var(--content-secondary);
+  background-color: var(--background-secondary);
+  color: var(--content-primary);
+}
+
+.btn:click {
+  background-color: var(--background-secondary);
+  color: var(--content-primary);
 }
 
 @media (max-width: 576px) {
