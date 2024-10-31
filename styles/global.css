@@ -19,11 +19,6 @@ body {
   z-index: -1;
 }
 
-@media (max-width: 576px) {
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-}
 
 :root {
   --content-primary: #ffffff;
