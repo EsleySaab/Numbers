@@ -87,3 +87,26 @@ small {
 .raffle {
   gap: 12rem;
 }
+
+/* Espaçamento extra em telas menores */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .raffle {
+    flex-direction: column; /* Organiza em coluna para telas pequenas */
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .form {
+    text-align: center; /* Centraliza o texto dentro da form */
+    justify-content: center;
+  }
+
+}

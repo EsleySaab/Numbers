@@ -56,3 +56,13 @@ input[type="number"] {
   background-color: var(--background-tertiary);
   border: 1px solid var(--content-secondary);
 }
+
+@media (max-width: 576px) {
+  .input-group {
+    justify-content: center;
+  }
+  .d-grid {
+    width: 90%;
+    margin: auto;
+  }
+}
